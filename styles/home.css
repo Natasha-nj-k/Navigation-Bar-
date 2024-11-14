@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-image: url("../images/coffee3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*.overlay{
+  background-color: rgba(0,0,0,0.7);
+  width: 100vh;
+}*/
+
+.logo img {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+
+.navb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #00000096;
+}
+
+.navb ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.navb ul li {
+  margin: 0 15px;
+}
+
+.navb ul li a {
+  color: #DEB887;
+  text-decoration: none;
+  font-size: 18px;
+  align-items: center;
+}
+
+.navb ul li a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.Search {
+  width: 100%;
+  padding: 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.Search input:focus {
+  border-color: #2e7d32;
+  outline: none;
+  background-color: #e8f5e9;
+}
+
+.Search input:hover {
+  border-color: #388e3c;
+  background-color: #f1f1f1;
+}
+
+button {
+  background-color: #6E260E; 
+  color: white; 
+  padding: 12px 24px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  font-family: Arial, sans-serif; 
+}
+
+button:hover {
+  background-color: #6E260E; 
+  transform: scale(1.05); 
+}
+
